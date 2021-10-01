@@ -1,0 +1,40 @@
+(perlu belajar)
+1. tambahin upload file buat di bagian pengajuan judul(mandiri dan judul dosen) (Masih UI)
+2. dosen bisa lihat file nya atau download file (Masih UI)
+4. tambahin notifikasi buat dosen atau mahasiswa
+
+(langsung update)
+12. rekap yang siap sidang/sudah monev(kayaknya ini di dosen atau di koordinator)
+
+
+(Sudah)
+5. tambahin timeline buat proses pengambilan judul (Masih UI)  (masih android) (sudah) 
+7. setiap informasi harus jelas (sudah)
+8. tambahkan nilai rata2 monev (sudah)
+9. nilai monev masing-masing monev hanya sekali (sudah)
+10. urutan proses di sesuaikan (sudah)
+11. approve bimbingan di tambahin cek all (sudah)
+3. informasi dosen yang available atau jumlah yang di bimbing(dikasih kuota judul) (Masih UI)
+6. kuota bimbingan dan kuota reviewer (Masih UI)
+- rekap yang siap sidang/sudah monev(kayaknya ini di dosen atau di koordinator) (sudah)
+- informasi dosen yang available atau jumlah yang di bimbing(dikasih kuota judul) (sudah)
+
+- kuota bimbingan dan kuota reviewer (sudah)
+
+
+BELUM 
+
+- tambahin notifikasi buat dosen atau mahasiswa
+
+
+SHA1: "f3a790d8086472166813d8e808c0804e7e3da28a"
+
+
+
+- tambahin notifikasi buat dosen atau mahasiswa 
+- informasi dosen yang available atau jumlah yang di bimbing(dikasih kuota judul) (sudah)
+- kuota bimbingan dan kuota reviewer (sudah)
+- rekap yang siap sidang/sudah monev(kayaknya ini di dosen atau di koordinator) (sudah)
+
+
+

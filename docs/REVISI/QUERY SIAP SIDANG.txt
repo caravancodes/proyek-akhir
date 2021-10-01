@@ -1,0 +1,8 @@
+SELECT mahasiswa.mhs_nama as nama, mahasiswa.mhs_nim as nim, bimbingan.proyek_akhir_id, COUNT(*) FROM bimbingan, proyek_akhir, mahasiswa WHERE bimbingan.proyek_akhir_id = proyek_akhir.proyek_akhir_id and proyek_akhir.mhs_nim = mahasiswa.mhs_nim and bimbingan_status = "disetujui" GROUP BY bimbingan.proyek_akhir_id HAVING COUNT(*) >= 16
+
+
+
+
+SELECT proyek_akhir.nama_tim AS nama_tim, proyek_akhir.mhs_nim AS mhs_nim, mahasiswa.mhs_nama AS mhs_nama, mahasiswa.mhs_foto AS mhs_foto, judul.judul_nama AS judul_nama, COUNT(*) FROM bimbingan, proyek_akhir, mahasiswa, judul WHERE bimbingan.proyek_akhir_id = proyek_akhir.proyek_akhir_id and proyek_akhir.mhs_nim = mahasiswa.mhs_nim and mahasiswa.judul_id = judul.judul_id and bimbingan_status = 'disetujui' GROUP BY bimbingan.proyek_akhir_id HAVING COUNT(*) >= 14
+
+SELECT proyek_akhir.nama_tim, proyek_akhir.mhs_nim, mahasiswa.mhs_nama, mahasiswa.mhs_foto, judul.judul_nama, COUNT(*) FROM bimbingan, proyek_akhir, mahasiswa, judul WHERE bimbingan.proyek_akhir_id = proyek_akhir.proyek_akhir_id and proyek_akhir.mhs_nim = mahasiswa.mhs_nim and mahasiswa.judul_id = judul.judul_id and bimbingan_status = 'disetujui' GROUP BY bimbingan.proyek_akhir_id HAVING COUNT(*) >= 14

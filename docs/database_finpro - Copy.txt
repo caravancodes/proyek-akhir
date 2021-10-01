@@ -1,0 +1,82 @@
+1.user
+- username -> varchar(20)=> primary key
+- password -> varchar(20)
+- peran -> varchar(20)
+
+2.admin
+- username -> varchar(10) 
+- password -> varchar(10)
+- username_admin -> foreign key(user)
+
+3.mahasiswa
+- mhs_nama 	-> varchar(20)
+- mhs_nim  	-> varchar(20) primary key
+- mhs_foto 	-> text
+- mhs_kelompok	-> varchar(30)
+- mhs_email	-> varchar(30)
+- mhs_kontak	-> varchar(13)
+- status	-> varchar(20)
+- mhs_username	-> varchar(30) foreign_key
+
+4.dosen
+- dosen_nip	-> varchar(20) primary_key
+- dosen_nama	-> varchar(30)
+- dosen_foto	-> text
+- dosen_email	-> varchar(30)
+- dosen_kontak	-> varchar(13)
+- dosen_username-> varchar(30) foreign_key(user)
+
+5.proyek akhir
+- pa_id		-> int(13) primary key
+- mhs_nim	-> varchar(20) fk(mahasiswa)
+- dosen_nip	-> varchar(20) fk(dosen)
+- judul_id	-> varchar(20) fk(judul)
+
+6.judul_dosen
+-judul_dosen_id	-> varchar(20)primary_key
+-judul_id	-> varchar(20)
+-dosen_nip	-> varchar(20)
+
+7.judul_pa
+- judul_id	 -> varchar(20)
+- judul_nama	 -> varchar(20)
+- judul_kategori -> varchar(20)
+- judul_deskripsi-> text
+
+8.judul_mahasiswa
+-judul_mahasiswa_id	->varchar(20)primarykey
+-judul_id		->varchar(20)fk(judul_pa)
+-mhs_nim		->varchar(20)fk(mahasiswa)
+
+9.bimbingan
+- bimbingan_id		-> varchar(20) primary key
+- bimbingan_isi		-> text
+- bimbingan_tanggal	-> date
+- pa_id			-> varchar(20) fk(proyek_akhir)
+
+10.monev
+- monev_id	-> varchar(20) primary_key
+- monev_review  -> text
+- monev_tanggal	-> date
+- monev_nilai	-> int(3)
+- pa_id		-> varchar(20) fk(proyek akhir)
+
+11.sidang
+- sidang_id	-> varchar(20) pk
+- sidang_review	-> text
+- sidang_tanggal-> date
+- sidang_nilai	-> int(3)
+- pa_id		-> varchar(20)
+
+12. informasi
+
+- informasi_id	 -> varchar(20) pk
+- informasi_judul-> varchar(30)
+- informasi_isi	 -> text
+- informasi_tanggal-> date
+- dosen_nip	-> varchar(20) fk(dosen)
+- mhs_nim	-> varchar(20) fk(mhs)
+
+
+ 
+

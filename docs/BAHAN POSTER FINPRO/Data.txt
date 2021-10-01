@@ -1,0 +1,14 @@
+- Seven Primavera
+  > FinPro A mobile based Final Project Management System
+  > Muhammad Faisal Amir (6706160014)
+  > Muhamad Ikhsan Ramadhan (6706162026)
+
+- Fungsi :
+- Manajemen Data Mahasiswa Proyek Akhir
+- Manajemen Dosen Pembimbing
+- Manajemen Dosen Reviewer
+- Manajemen Judul Proyek Akhir
+- Monitoring Bimbingan
+- Manajemen Informasi mengenai Proyek Akhir
+- Manajemen Nilai Monev
+- Manajemen Nilai Sidang

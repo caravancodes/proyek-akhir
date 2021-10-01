@@ -1,0 +1,119 @@
+Table bimbingan
+bimbingan_id, 
+bimbingan_review,
+bimbingan_kehadiran, 
+bimbingan_tanggal, 
+bimbingan_status, 
+proyek_akhir_id,
+
+Table detail_monev
+monev_detail_id, 
+monev_nilai, 
+monev_tanggal,
+monev_ulasan, 
+monev_id,
+proyek_akhir_id,
+
+Table dosen
+dsn_nip, 
+dsn_nama,
+dsn_kode, 
+dsn_kontak, 
+dsn_foto,
+batas_bimbingan,
+batas_reviewer,
+dsn_email,
+username,
+
+Table informasi
+informasi_id, 
+informasi_judul,
+informasi_isi, 
+penerbit, 
+informasi_waktu,     
+
+Table jadwal_kegiatan
+kegiatan_id, 
+kegiatan,
+tanggal_mulai, 
+tanggal_berakhir, 
+pelaku, 
+keterangan,
+
+Table judul
+judul_id, 
+judul_nama, 
+judul_deskripsi, 
+judul_tahun, 
+judul_status,
+judul_waktu,
+judul_abstrak,
+judul_dokumen,
+dsn_nip,        
+
+Table kategori judul
+kategori_id,
+kategori_judul
+kategori_id,
+kategori_nama,
+kategori_status,
+
+Table koordinator_pa
+koor_nip, 
+koor_nama,
+koor_kode,
+koor_kontak, 
+koor_foto, 
+koor_email,
+username,
+
+Table mahasiswa
+mhs_nim, 
+mhs_nama,
+angkatan,
+mhs_kontak, 
+mhs_foto, 
+mhs_email, 
+status,
+judul_id,
+username,
+
+Table monev
+monev_id,
+monev_kategori,
+jumlah_bimbingan,
+monev_status
+
+Table notifikasi
+notifikasi_id, 
+notifikasi_tanggal,
+notifikasi_kategori, 
+notifikasi_deskripsi, 
+notifikasi_dari,
+notifikasi_untuk,
+notifikasi_baca,
+
+Table proyek_akhir
+proyek_akhir_id, 
+nilai_total,
+nama_tim, 
+judul_id, 
+mhs_nim,
+dsn_nip,
+
+Table sidang
+sidang_id, 
+sidang_review,
+sidang_tanggal, 
+nilai_proposal, 
+nilai_penguji_1, 
+nilai_penguji_2, 
+nilai_pembimbing, 
+nilai_total, 
+sidang_status,
+proyek_akhir_id,
+
+Table user
+username, 
+password,
+pengguna, 

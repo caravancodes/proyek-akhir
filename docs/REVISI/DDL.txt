@@ -1,0 +1,121 @@
+CREATE TABLE `bimbingan` (
+  `bimbingan_id` int(10) UNSIGNED NOT NULL,
+  `bimbingan_review` text COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `bimbingan_kehadiran` varchar(5) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `bimbingan_tanggal` date NOT NULL,
+  `bimbingan_status` varchar(11) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `proyek_akhir_id` int(10) UNSIGNED NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+
+CREATE TABLE `detail_monev` (
+  `monev_detail_id` int(10) UNSIGNED NOT NULL,
+  `monev_nilai` tinyint(4) DEFAULT NULL,
+  `monev_tanggal` date NOT NULL,
+  `monev_ulasan` text COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `monev_id` int(10) UNSIGNED NOT NULL,
+  `proyek_akhir_id` int(10) UNSIGNED NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE `dosen` (
+  `dsn_nip` varchar(15) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `dsn_nama` varchar(64) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `dsn_kode` varchar(4) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `dsn_kontak` varchar(12) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `dsn_foto` text COLLATE utf8mb4_unicode_ci NOT NULL,
+  `batas_bimbingan` int(10) NOT NULL DEFAULT 5,
+  `batas_reviewer` int(10) NOT NULL DEFAULT 5,
+  `dsn_email` varchar(64) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `username` varchar(32) COLLATE utf8mb4_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+
+CREATE TABLE `informasi` (
+  `informasi_id` int(10) UNSIGNED NOT NULL,
+  `informasi_judul` text COLLATE utf8mb4_unicode_ci NOT NULL,
+  `informasi_isi` text COLLATE utf8mb4_unicode_ci NOT NULL,
+  `penerbit` varchar(64) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `informasi_waktu` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE `jadwal_kegiatan` (
+  `kegiatan_id` int(11) NOT NULL,
+  `kegiatan` text NOT NULL,
+  `tanggal_mulai` date NOT NULL,
+  `tanggal_berakhir` date NOT NULL,
+  `pelaku` varchar(25) NOT NULL,
+  `keterangan` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+CREATE TABLE `judul` (
+  `judul_id` int(10) UNSIGNED NOT NULL,
+  `judul_nama` text COLLATE utf8mb4_unicode_ci NOT NULL,
+  `judul_deskripsi` text COLLATE utf8mb4_unicode_ci NOT NULL,
+  `judul_status` varchar(10) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `judul_waktu` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `dsn_nip` varchar(15) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `kategori_id` int(10) UNSIGNED DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE `kategori_judul` (
+  `kategori_id` int(10) UNSIGNED NOT NULL,
+  `kategori_nama` varchar(32) COLLATE utf8mb4_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE `koordinator_pa` (
+  `koor_nip` varchar(15) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `koor_nama` varchar(64) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `koor_kode` varchar(4) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `koor_kontak` varchar(12) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `koor_foto` text COLLATE utf8mb4_unicode_ci NOT NULL,
+  `koor_email` varchar(64) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `username` varchar(32) COLLATE utf8mb4_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+
+CREATE TABLE `mahasiswa` (
+  `mhs_nim` varchar(15) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `mhs_nama` varchar(64) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `angkatan` varchar(4) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `mhs_kontak` varchar(12) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `mhs_foto` text COLLATE utf8mb4_unicode_ci NOT NULL,
+  `mhs_email` varchar(64) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `status` varchar(10) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `judul_id` int(10) UNSIGNED DEFAULT NULL,
+  `username` varchar(32) COLLATE utf8mb4_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE `monev` (
+  `monev_id` int(10) UNSIGNED NOT NULL,
+  `monev_kategori` varchar(32) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `jumlah_bimbingan` tinyint(4) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE `proyek_akhir` (
+  `proyek_akhir_id` int(10) UNSIGNED NOT NULL,
+  `nilai_total` tinyint(4) DEFAULT NULL,
+  `nama_tim` varchar(15) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `judul_id` int(10) UNSIGNED DEFAULT NULL,
+  `mhs_nim` varchar(15) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `dsn_nip` varchar(15) COLLATE utf8mb4_unicode_ci DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE `sidang` (
+  `sidang_id` int(10) UNSIGNED NOT NULL,
+  `sidang_review` text COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `sidang_tanggal` date NOT NULL,
+  `nilai_proposal` tinyint(4) DEFAULT NULL,
+  `nilai_penguji_1` tinyint(4) DEFAULT NULL,
+  `nilai_penguji_2` tinyint(4) DEFAULT NULL,
+  `nilai_pembimbing` tinyint(4) DEFAULT NULL,
+  `nilai_total` double DEFAULT NULL,
+  `sidang_status` varchar(25) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `proyek_akhir_id` int(11) UNSIGNED NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+
+CREATE TABLE `user` (
+  `username` varchar(32) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `password` text COLLATE utf8mb4_unicode_ci NOT NULL,
+  `pengguna` varchar(10) COLLATE utf8mb4_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

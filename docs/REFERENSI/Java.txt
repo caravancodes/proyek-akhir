@@ -1,0 +1,8 @@
+Java sebagai salah satu bahasa pemrograman yang sudah berumur dari era 1990-an, kian berkembang dan melebarkan dominasinya di berbagai bidang. Salah satu penggunaan terbesar Java adalah dalam pembuatan aplikasi native untuk Android. Selain itu Java pun menjadi pondasi bagi berbagai bahasa pemrograman seperti Kotlin, Scala, Clojure, Groovy, JRuby, Jython, dan lainnya yang memanfaatkan Java Virtual Machine sebagai rumahnya.
+
+Java pun akrab dengan dunia saintifik dan akademik. Cukup banyak akademisi di Indonesia yang menggunakan Java sebagai alat bantu untuk menyelesaikan skripsi atau tugas akhir dengan berbagai topik yang didominasi kecerdasan buatan, data mining, enterprise architecture, aplikasi mobile, dan lainnya. Di dunia web development sendiri, Java memiliki berbagai web framework unggulan seperti Spring, Play Framework, Spark, Jakarta Struts, dan Java Server Pages.
+
+Java merupakan salah satu bahasa pemrograman yang berparadigma berorientasi objek, Java memiliki sangat banyak tipe data yang dasar dan kompleks. Tipe data yang kompleks dapat Anda temukan seperti ArrayList, HashMap, HashTable, Vector, Array, dan lainnya. Untuk tipe data dasar, Anda dapat menggunakan int, float, double, String, Boolean, dan lainya.
+
+
+https://www.codepolitan.com/mengenal-dan-memulai-pemrograman-java-belajar-java

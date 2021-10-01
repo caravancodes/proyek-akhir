@@ -1,0 +1,29 @@
+Pemprograman beriorentasi OOP merupakan paradigma pemprograman yang menganggap semua benda adalah objek. Bahkan variabel-pun dianggap sebagai objek. Teknik pemprograman OOP ini juga bisa disebut sebagai teknik pemprograman modern.
+
+Sebelum kita memasuki pembahasan lebih lanjut mari kita mengulas terlebih dahulu tentang objek dan class :
+
+Objek merupakan kumpulan variabel dan fungsi yang saling berkaitan
+Class merupakan suatu rancangan dari objek itu sendiri. Jadi satu class dapat berisi banyak objek. Jadi intinya kita hanya cukup membuat satu class saja untuk satu proses. Sebagai contoh nama class misalnya produk. Maka objek-objek atau fungsi-fungsi yang terkandung didalamnya pasti berkaitan dengan class produk tersebut. Misalnya fungsi untuk tambah produk (add), edit, view, atau delete.
+Contoh lain yang lebih mudah dipahami dari perbedaan antara class dan objek. Analogikanya sebagai berikut :
+
+Class itu bersifat umum. misalnya bola maka, objek yang terkandung dalam class tersebut bersifat khusus. Misalnya bola basket, bola sepak, bola voli, dan sebagainya.
+
+Cara kerja dari pemprograman OOP ini, tidak lain adalah pemanggilan suatu objek dalam satu class. Sebagai contoh, seorang pengembang membuat suatu fungsi untuk kemudian dikelompokkan menjadi kode-kode yang berkaitan menjadi suatu objek. Objek yang telah dibuat itu, memiliki fungsi tersendiri dan dapat digunakan untuk memanggil objek lain yang bersangkutan.
+
+Teknik pemprograman ini, memiliki keunggulan yang sangat mencolok yaitu mudah untuk dikembangkan. Dikembangkan dalam hal ini artinya, ketika web mengalami pengembangan atau katakanlah ada seorang client yang datang menghampiri anda dengan tujuan ingin menambahkan sebuah fitur baru kedalam web miliknya. Untuk web yang dibuat dengan teknik pemprograman OOP, kita tidak perlu repot untuk membongkar skrip yang telah jadi. Kita hanya perlu menambahkan sebuah fungsi baru untuk kemudian dipanggil melalui objek yang berkaitan. Berbeda jika web tidak dibuat menggunakan teknik OOP, maka dijamin semua kode akan dirombak. Hal ini disebabkan karena teknik tanpa OOP tidak teratur sehingga pondasi web dan fungsi kodenya campur aduk.
+
+Selain itu teknik pemprograman OOP ini, juga menawarkan beberapa keuntungan diantaranya yaitu:
+
+   1. Re-usability
+
+Artinya kemampuan untuk dapat membentuk banyak objek dengan hanya menggunakan satu class dan dapat digunakan kembali jika dibutuhkan
+
+2. Mainatability
+
+Artinya teknik OOP mempunyai kemampuan lebih mudah dikelola kerena pengembang bisa langsung fokus terhadap permasalahan yang ada tanpa merusak fungsi lain. Biasanya keuntungan ini akan terasa jika web merupakan aplikasi dalam skala yang besar.
+
+ 3. Extensibility
+
+Artinya kemampuanya dapat diperluas dimana setiap objek dapat ditambahkan kemampuannya tanpa merusak objhek lainnya.
+
+https://www.codepolitan.com/mengenal-teknik-pemprograman-beriorentasi-oop-582dbccc40569-21409

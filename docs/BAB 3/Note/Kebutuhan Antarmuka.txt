@@ -1,0 +1,9 @@
+Identify the user’s level of knowledge and experience.
+Identify the characteristics of the user’s needs, tasks, and jobs.
+Identify the user’s psychological characteristics.
+Identify the user’s physical characteristics.
+
+Identifikasi tingkat pengetahuan dan pengalaman pengguna.
+Identifikasi karakteristik kebutuhan, tugas, dan pekerjaan pengguna.
+Identifikasi karakteristik psikologis pengguna.
+Identifikasi karakteristik fisik pengguna.

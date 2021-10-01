@@ -1,0 +1,53 @@
+Algoritma Monev Pra PA 1
+Cek Halaman Monev
+Cari Nama Tim PA
+IF ((Jumlah Bimbingan <= 2) && ((Jumlah EPRT >= 1) || (EPRT >= 450))
+THEN Monev Pra PA 1
+ELSE Pengurangan Nilai
+     Monev Pra PA 1 Mundur
+END IF
+
+Algoritma Monev Pra PA 2
+Cek Halaman Monev
+Cari Nama Tim PA
+IF ((Jumlah Bimbingan <= 4) && ((Jumlah EPRT >= 3) || (EPRT >= 450))
+THEN Monev Pra PA 2
+ELSE Pengurangan Nilai
+     Monev Pra PA 2 Mundur
+END IF
+
+Algoritma Monev Pra PA 3
+Cek Halaman Monev
+Cari Nama Tim PA
+IF ((Jumlah Bimbingan <= 6) && ((Jumlah EPRT >= 3) || (EPRT >= 450))
+THEN Monev Pra PA 3
+ELSE Pengurangan Nilai
+     Monev Pra PA 3 Mundur
+END IF
+
+Algoritma Monev PA 1
+Cek Halaman Monev
+Cari Nama Tim PA
+IF ((Jumlah Bimbingan <= 9) && (EPRT >= 450))
+THEN Monev PA 1
+ELSE Pengurangan Nilai
+     Monev PA 1 Mundur
+END IF
+
+Algoritma Monev PA 2
+Cek Halaman Monev
+Cari Nama Tim PA
+IF ((Jumlah Bimbingan <= 12) && (EPRT >= 450))
+THEN Monev PA 2
+ELSE Pengurangan Nilai
+     Monev PA 2 Mundur
+END IF
+
+Algoritma Monev PA 3
+Cek Halaman Monev
+Cari Nama Tim PA
+IF ((Jumlah Bimbingan <= 14) && (EPRT >= 450))
+THEN Monev PA 3
+ELSE Pengurangan Nilai
+     Monev PA 3 Mundur
+END IF

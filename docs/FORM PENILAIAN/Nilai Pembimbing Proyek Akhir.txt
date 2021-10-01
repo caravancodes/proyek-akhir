@@ -1,0 +1,43 @@
+Nilai Pembimbing Proyek Akhir (PA)
+------------------------------------------------------
+
+Penilaian Kelompok (Aplikasi 30% dan Dokumentasi 20%)
+
+No. 
+- Kriteria Peniliaian 
+- a) Unsur Penilaian (Interval Penilaian)
+
+1. 
+- Aplikasi (30%) 
+- a) Seluruh Fungsionalitas aplikasi bisa running tanpa bug (eror) (2,4,6,8,10) 
+- b) Kompleksitas dari aplikasi (2,4,6,8,10)
+- c) Desain tampilan, warna, ketepatan layout (1,2,3,4,5)
+- d) Kemudahan penggunaan aplikasi (1,2,3,4,5)
+
+2.
+- Dokumentasi (20%)
+- a) Tata Tulis Buku sesuai ejaan baku dan kesesuaian setiap poin di dalam buku (2,4,6,8,10)
+- b) Kesesuaian rancangan sistem dalam buku dengan aplikasi (2,4,6,8,10)
+
+#Total nilai kelompok
+
+======================================================
+
+Penilaian Individu (Presentasi 50%)
+
+No.
+Nama.
+- Unsur Penilaian (Interval Penilaian)
+
+1. 
+Muhammad Faisal Amir
+- Keaktifan bimbingan (2,4,6,8,10)
+- Softskill : Kepercayaan diri, kemampuan komunikasi, kejujuran, tanggung jawab, disiplin (3,6,8,12,15)
+- hardskill : Kemampuan menyelesaikan tugas yang diberikan (5,10,15,20,25)
+
+#Total nilai individu
+
+
+
+
+

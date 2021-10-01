@@ -1,0 +1,35 @@
+Ketua Tim PA
+Mengolah Data Dosen
+Mengolah Data Mahasiswa
+Mengolah Data PA
+Mengolah Jadwal Monev
+Memetakan Mahasiswa Monev
+
+Dosen Pembimbing
+Melihat Data Bimbingan, Monev, Sidang
+Memasukkan Nilai Bimbingan
+Melihat Data Mahasiswa Bimbingan
+Memilih Mahasiswa Bimbingan
+
+Dosen Reviewer
+Melihat Hasil Reviewer dan Nilai
+Melihat Mahasiswa Monev
+Menentukan Waktu Monev
+Memasukkan Hasil Reviewer
+
+Dosen Penguji Sidang
+Melihat Mahasiswa Sidang
+Melihat Hasil Review Sidang dan Nilai
+Memasukkan Nilai Sidang dan Reviewer Sidang
+
+Mahasiswa
+Memilih Judul PA
+Melihat Jadwal Penting PA
+Melihat Data Judul
+Melihat Kelengkapan Berkas PA
+Melihat Nilai Bimbingan Monev dan Sidang
+Memasukkan Persyaratan yang sudah di lengkapi
+Memasukkan Judul PA
+Memasukkan Berkas Monev
+Memasukkan Berkas Bimbingan
+Memasukkan Berkas Sidang
